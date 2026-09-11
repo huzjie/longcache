@@ -1,0 +1,21 @@
+{
+  "vendor": "Alibaba Qwen",
+  "license": "MIT",
+  "license_url": "https://huggingface.co/deepseek-ai",
+  "heads_q": 128,
+  "hidden_size": 7168,
+  "name": "qwen3.5-4b",
+  "arch": "Dense",
+  "params": "4B-Dense",
+  "total_params_b": 4.0,
+  "active_params_b": 4.0,
+  "context_len": 262144,
+  "kv_cache_bytes_per_token": 256.0,
+  "heads_kv": 4,
+  "layers": 36,
+  "description": "Qwen3.5-4B：端侧小模型，256K 上下文。",
+  "capabilities": [
+    "on-device",
+    "dense"
+  ]
+}

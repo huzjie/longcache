@@ -1,0 +1,21 @@
+{
+  "vendor": "DeepSeek",
+  "license": "MIT",
+  "license_url": "https://huggingface.co/deepseek-ai",
+  "heads_q": 128,
+  "hidden_size": 7168,
+  "name": "deepseek-v4-flash",
+  "arch": "MoE (Dense-MoE)",
+  "params": "671B-MoE",
+  "total_params_b": 671.0,
+  "active_params_b": 37.0,
+  "context_len": 131072,
+  "kv_cache_bytes_per_token": 3560.0,
+  "heads_kv": 8,
+  "layers": 61,
+  "description": "DeepSeek V4 Flash：上一代快速模型，KV Cache 每 token 约 3.5KB，上下文 128K。",
+  "capabilities": [
+    "moe",
+    "fast"
+  ]
+}

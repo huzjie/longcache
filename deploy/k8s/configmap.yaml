@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: longcache-config
+data:
+  config.json: |
+    {
+      "model": "deepseek-v4.1-flash",
+      "kv": {
+        "budget_bytes": 1073741824,
+        "quant": "fp4",
+        "compression": "topk",
+        "eviction": "lru"
+      },
+      "sparse": {
+        "strategy": "topk",
+        "topk": 256
+      }
+    }

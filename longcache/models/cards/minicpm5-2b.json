@@ -1,0 +1,22 @@
+{
+  "vendor": "OpenBMB",
+  "license": "MIT",
+  "license_url": "https://huggingface.co/deepseek-ai",
+  "heads_q": 128,
+  "hidden_size": 7168,
+  "name": "minicpm5-2b",
+  "arch": "Dense (Llama)",
+  "params": "2.5B-Dense",
+  "total_params_b": 2.52,
+  "active_params_b": 1.98,
+  "context_len": 131072,
+  "kv_cache_bytes_per_token": 200.0,
+  "heads_kv": 2,
+  "layers": 42,
+  "description": "MiniCPM5-2B：端侧 dense 模型，131K 上下文，Apache-2.0。",
+  "capabilities": [
+    "on-device",
+    "dense",
+    "long-context"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "vendor": "DeepSeek",
+  "license": "MIT",
+  "license_url": "https://huggingface.co/deepseek-ai",
+  "heads_q": 128,
+  "hidden_size": 7168,
+  "name": "deepseek-v3.2",
+  "arch": "MoE",
+  "params": "671B-MoE",
+  "total_params_b": 671.0,
+  "active_params_b": 37.0,
+  "context_len": 131072,
+  "kv_cache_bytes_per_token": 3560.0,
+  "heads_kv": 8,
+  "layers": 61,
+  "description": "DeepSeek V3.2：通用 MoE 底座。",
+  "capabilities": [
+    "moe",
+    "general"
+  ]
+}

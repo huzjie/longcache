@@ -1,0 +1,22 @@
+{
+  "vendor": "Abacus.AI",
+  "license": "MIT",
+  "license_url": "https://huggingface.co/deepseek-ai",
+  "heads_q": 128,
+  "hidden_size": 7168,
+  "name": "smaug-agentic",
+  "arch": "MoE (Kimi K3 fine-tune)",
+  "params": "2.8T-MoE",
+  "total_params_b": 2800.0,
+  "active_params_b": 104.0,
+  "context_len": 1048576,
+  "kv_cache_bytes_per_token": 1200.0,
+  "heads_kv": 8,
+  "layers": 96,
+  "description": "Smaug Agentic：面向企业级长程 agent 循环微调的开放权重模型。",
+  "capabilities": [
+    "agentic",
+    "moe",
+    "long-context"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "vendor": "DeepSeek",
+  "license": "MIT",
+  "license_url": "https://huggingface.co/deepseek-ai",
+  "heads_q": 128,
+  "hidden_size": 7168,
+  "name": "deepseek-v4.1-flash",
+  "arch": "Causal-Encoder-Decoder (CED)",
+  "params": "552B-MoE",
+  "total_params_b": 552.0,
+  "active_params_b": 16.0,
+  "context_len": 1048576,
+  "kv_cache_bytes_per_token": 890.0,
+  "heads_kv": 64,
+  "layers": 40,
+  "description": "DeepSeek V4.1-Flash：552B MoE，CED 非对称结构，prefill 激活 8B / decode 激活 16B，KV Cache 每 token 仅 890B（初代 1/437），1M 上下文缓存 < 1GB。",
+  "capabilities": [
+    "long-context",
+    "moe",
+    "vision",
+    "kv-compression",
+    "ced"
+  ]
+}

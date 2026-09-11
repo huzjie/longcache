@@ -1,0 +1,21 @@
+{
+  "vendor": "Moonshot AI",
+  "license": "MIT",
+  "license_url": "https://huggingface.co/deepseek-ai",
+  "heads_q": 128,
+  "hidden_size": 7168,
+  "name": "kimi-k3",
+  "arch": "MoE",
+  "params": "2.8T-MoE",
+  "total_params_b": 2800.0,
+  "active_params_b": 104.0,
+  "context_len": 1048576,
+  "kv_cache_bytes_per_token": 1200.0,
+  "heads_kv": 8,
+  "layers": 96,
+  "description": "Kimi K3：2.8T 参数 MoE，1M 上下文。",
+  "capabilities": [
+    "long-context",
+    "moe"
+  ]
+}

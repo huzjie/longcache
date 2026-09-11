@@ -1,0 +1,22 @@
+{
+  "vendor": "Meituan",
+  "license": "MIT",
+  "license_url": "https://huggingface.co/deepseek-ai",
+  "heads_q": 128,
+  "hidden_size": 7168,
+  "name": "longcat-2.0",
+  "arch": "MoE + N-gram Embedding",
+  "params": "1.6T-MoE",
+  "total_params_b": 1600.0,
+  "active_params_b": 48.0,
+  "context_len": 1000000,
+  "kv_cache_bytes_per_token": 1500.0,
+  "heads_kv": 8,
+  "layers": 80,
+  "description": "LongCat-2.0：万亿参数国产算力模型，LongCat 稀疏注意力 + N-gram Embedding。",
+  "capabilities": [
+    "moe",
+    "sparse-attention",
+    "domestic-accelerator"
+  ]
+}
